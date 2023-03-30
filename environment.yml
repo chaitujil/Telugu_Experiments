@@ -1,0 +1,15 @@
+channels:
+  - conda-forge
+  - defaults 
+dependencies:
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - spacy
+  - streamlit
+  - pytorch
+  - transformers
+  - fasttext
+  - pip:
+    - simpletransformers

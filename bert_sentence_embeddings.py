@@ -39,4 +39,5 @@ if __name__ == '__main__':
     sentence = "ర్యాష్‌ డ్రైవింగ్‌ చేసిన సినీ నిర్మాతపై కేసు"
     model, tokenizer = load_model()
     sentence_embedding = get_embedding(sentence, model, tokenizer)
+    print(sentence_embedding)
     print(sentence_embedding.shape)  # 768*2 = 1536
